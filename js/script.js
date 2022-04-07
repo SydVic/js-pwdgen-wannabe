@@ -10,6 +10,8 @@ console.log(userFavoriteColour, typeof(userFavoriteColour));
 
 // concatenazione dei dati forniti
 const userPassword= `La tua password è: ${userName}${userSurname}${userFavoriteColour}21`;
+//const userPassword = userName + userSurname + userFavoriteColour + '21';
+
 
 // inserimento stringa in HTML
 document.getElementById('user-password').innerHTML = userPassword;
